@@ -52,7 +52,7 @@ void pint(stack_t **head, unsigned int n);
 size_t print_dlistint(const stack_t *h);
 size_t print_head(const stack_t *h);
 void (*get_op_func(char *command))(stack_t **head, unsigned int parameter);
-void exec_comp(char *tmp, stack_t **head, unsigned int line);
+void run_comp(char *tmp, stack_t **head, unsigned int line);
 void push(stack_t **head, unsigned int n);
 stack_t *add_dnodeint(stack_t **head, const int n);
 void free_dlistint(stack_t *head);

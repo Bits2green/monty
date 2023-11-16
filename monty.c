@@ -42,7 +42,7 @@ int main(int argc, char **argv)
 		temp[i] = '\0';
 		if (temp[0] != '\0' && temp[0] != '\n')
 		{
-			exec_comp(temp, &head, lines); }
+			run_comp(temp, &head, lines); }
 		lines++;
 		j++; }
 	close(treck.fd);
